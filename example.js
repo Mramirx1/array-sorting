@@ -10,7 +10,7 @@ let result=students.sort((a,b)=>{
 console.log("sorting with  nuumbers:");
 console.log(result);
 //for results open console page(f12) in your browser or node
-//sorting with alphabets
+//sorting with alphabets:
 let result2=students.sort((a,b)=>{
     if(b.eyeColor<a.eyeColor) return 1;
     if(b.eyeColor>a.eyeColor) return -1;

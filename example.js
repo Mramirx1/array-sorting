@@ -7,7 +7,16 @@ let result=students.sort((a,b)=>{
     if(b.age<a.age) return 1;
     else return 0;
 })
+console.log("sorting with  nuumbers:");
 console.log(result);
 //for results open console page(f12) in your browser or node
+//sorting with alphabets
+let result2=students.sort((a,b)=>{
+    if(b.eyeColor<a.eyeColor) return 1;
+    if(b.eyeColor>a.eyeColor) return -1;
+    else return 0;
+})
+console.log("sorting with alphabets:");
+console.log(result2);
 
     
